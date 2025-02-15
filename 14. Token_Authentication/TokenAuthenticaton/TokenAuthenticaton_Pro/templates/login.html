@@ -1,0 +1,13 @@
+<html>
+<head></head>
+    <body>
+<form action="/loginuser/" method="post">
+    {% csrf_token %}
+    username:<input type="text" name="uname"><br>
+    password:<input type="password" name="pwd"><br>
+            <input type="submit" value="Submit">
+
+</form>
+</body>
+
+</html>
